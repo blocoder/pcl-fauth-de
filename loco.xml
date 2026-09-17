@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Bundle-Konfiguration fuer Loco Translate, uebernommen aus pcl-fluentsmtp-de.
+
+  Ohne diese Datei saehe Loco hier nur ein Plugin mit der Textdomain
+  "pcl-fluentauth-de". Der Katalog, um den es geht, gehoert der fremden
+  Textdomain "fluent-security" (FluentAuth); Loco muss ausdruecklich erfahren,
+  dass dieses Bundle ihn mitbringt. Damit bleibt Loco als Editor fuer
+  Handgriffe nutzbar, und es gibt keinen zweiten Stand in
+  wp-content/languages/loco/.
+
+  Fuer die Werkzeugkette ist Loco nicht zustaendig: Der Katalog entsteht im
+  Repo, und ein Speichern in Loco wird beim naechsten deploy.sh ueberschrieben.
+
+  Der Domain Path heisst bei FluentAuth "/language". Die Vorlage (.pot)
+  liegt im Quell-Plugin und kommt mit dessen Updates.
+-->
+<bundle name="PC'L Übersetzungen für FluentAuth" min-version="2.6.0">
+
+  <domain name="fluent-security">
+    <project name="FluentAuth" slug="fluent-security">
+      <source>
+        <directory>../fluent-security/app</directory>
+        <file>../fluent-security/fluent-security.php</file>
+      </source>
+      <target>
+        <directory>languages</directory>
+      </target>
+      <template>
+        <file>../fluent-security/language/fluent-security.pot</file>
+      </template>
+    </project>
+  </domain>
+
+</bundle>
