@@ -4,7 +4,7 @@ Tags: fluentauth, fluent-security, deutsch, übersetzung, 2fa
 Requires at least: 6.5
 Tested up to: 7.1
 Requires PHP: 7.4
-Stable tag: 1.3.0
+Stable tag: 1.3.1
 License: GPL-2.0-or-later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -24,7 +24,7 @@ Unabhängiges Projekt, keine Verbindung zu WPManageNinja.
 
 == Installation ==
 
-1. Das ZIP aus den GitHub-Releases herunterladen.
+1. Das ZIP aus den GitHub-Releases herunterladen – aus dem Bereich „Releases“, nicht über „Code → Download ZIP“. Im Quellcode-Archiv fehlen die gebauten Kataloge.
 2. Im Backend unter Plugins → Installieren → Plugin hochladen einspielen und aktivieren.
 
 Die Seite muss auf `de_DE` stehen. Ab Version 1.3.0 meldet sich jedes weitere Update von selbst.
@@ -44,6 +44,9 @@ Ein Katalog gehört zu einer Plugin-Version. Ändert der Hersteller einen englis
 Nein. WordPress bringt dafür einen Rahmen mit, wendet ihn aber nur auf Downloads von wordpress.org an. Was das Paket schützt, ist HTTPS und GitHub.
 
 == Changelog ==
+
+= 1.3.1 =
+* Hinweis in der Verwaltung und in der Plugin-Liste, wenn das Plugin aus dem Quellcode-Archiv statt aus den Releases installiert wurde und die gebauten Kataloge deshalb fehlen.
 
 = 1.3.0 =
 * Das Plugin meldet Updates jetzt selbst und holt sie von GitHub.
