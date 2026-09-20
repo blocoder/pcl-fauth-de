@@ -7,7 +7,7 @@ das seinen Katalog vor allen anderen lädt.
 > Unabhängiges Projekt. Keine Verbindung zu WPManageNinja, den Herstellern
 > von FluentAuth.
 
-Stand: 17.09.2026, Version 1.3.1
+Stand: 20.09.2026, Version 1.4.0
 
 > [!IMPORTANT]
 > **Nur das ZIP aus den [Releases](https://github.com/blocoder/pcl-fauth-de/releases/latest) installieren.**
@@ -39,14 +39,17 @@ stehen.
 
 | Katalog | FluentAuth-Version | übersetzt | offen |
 |---|---|---:|---:|
-| `fluent-security` | 3.0.1 | 1.903 | 10 |
+| `fluent-security` | 3.0.3 | 1.938 | 34 |
 
 FluentAuth heißt im Plugin-Ordner und in der Textdomain `fluent-security`.
 
-**Die zehn offenen Einträge** bleiben mit Absicht englisch: Produkt- und
+**Die 34 offenen Einträge** bleiben mit Absicht englisch: Produkt- und
 Anbieternamen (FluentAuth, Google, GitHub, Facebook), „Magic Login“ als Name
-der Funktion, die Kopfzeilen des Plugins (Name, Adresse, Autor). Jede trägt
-einen Übersetzerkommentar, warum sie leer steht.
+der Funktion, die Kopfzeilen des Plugins (Name, Adresse, Autor) – und seit
+1.4.0 die Namen und Menüpfade der zwölf Fremd-Plugins, die FluentAuth als
+konkurrierende Zwei-Faktor-Lösung erkennt. Ein übersetzter Menüpfad fände
+sich in deren Oberfläche nicht wieder. Jeder Eintrag trägt einen
+Übersetzerkommentar, warum er leer steht.
 
 Ein Katalog gehört zu einer Plugin-Version: Ändert der Hersteller einen
 englischen Text, ist das für gettext ein neuer Schlüssel, und der alte fällt
@@ -99,7 +102,7 @@ ist kein Fehler im Katalog, die Oberfläche ersetzt sie genau so.
 
 ## Was das Plugin außerdem tut
 
-**Es ergänzt vier Texte der Verwaltung**, die FluentAuth 3.0.1 anzeigt, aber
+**Es ergänzt vier Texte der Verwaltung**, die FluentAuth 3.0.3 anzeigt, aber
 nicht übersetzbar macht (unter anderem die Beschreibung der Passkey-Anmeldung).
 Sie fehlen in FluentAuths Übersetzungsliste für die Oberfläche. Das Plugin
 trägt sie über den Filter `fluent_security/app_vars` nach, nur solange
@@ -143,7 +146,7 @@ Katalog greift – das erspart die Suche, wenn die Sprache nicht passt.
 
 Das Plugin heißt im Ordner `pcl-fluentauth-de`, das Repo `pcl-fauth-de`.
 
-**Voraussetzungen:** WordPress 6.5+, PHP 7.4+, FluentAuth 3.0.1.
+**Voraussetzungen:** WordPress 6.5+, PHP 7.4+, FluentAuth 3.0.3.
 
 ---
 

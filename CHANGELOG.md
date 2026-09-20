@@ -4,6 +4,28 @@ Die Versionsnummer steigt bei **jeder** Katalogänderung, auch wenn sich am
 Plugin-Code nichts tut. Ein Archiv, dessen Name nichts über seinen Inhalt
 sagt, ist beim Weitergeben wertlos.
 
+## 1.4.0
+
+**Angepasst an FluentAuth 3.0.3.** 109 neue Zeichenketten, 50 entfallene.
+
+Der Hersteller hat mit 3.0.3 seine englischen Texte überarbeitet: Aus „Email
+and Password is required“ wurde „Please enter your email address and
+password.“ Für gettext ist jede solche Umformulierung ein neuer Schlüssel, und
+die bisherige Übersetzung fällt aus dem Katalog. 39 der 109 neuen Einträge sind
+Neufassungen dieser Art. Der Rest kommt aus zwei neuen Bereichen: der
+Einrichtung von Passkeys und zweitem Faktor samt dem Notausgang über die
+`wp-config.php`, und der Erkennung konkurrierender Plugins für die
+Zwei-Faktor-Anmeldung.
+
+**Erst FluentAuth aktualisieren, dann dieses Plugin.** Auf 3.0.1 erscheinen die
+überarbeiteten Texte englisch, weil der Hersteller sie in 3.0.3 ersetzt hat und
+sie damit aus dem Katalog gefallen sind.
+
+Die Produktnamen und Menüpfade der erkannten Fremd-Plugins (Wordfence,
+miniOrange, Solid Security und neun weitere) bleiben englisch: Ein übersetzter
+Menüpfad fände sich in deren Oberfläche nicht wieder. Die Zahl der bewusst
+offenen Einträge steigt damit von 10 auf 34.
+
 ## 1.3.1
 
 **Ein Hinweis, wenn die gebauten Kataloge fehlen.** Wer das Plugin aus dem

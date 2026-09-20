@@ -4,7 +4,7 @@ Tags: fluentauth, fluent-security, deutsch, übersetzung, 2fa
 Requires at least: 6.5
 Tested up to: 7.1
 Requires PHP: 7.4
-Stable tag: 1.3.1
+Stable tag: 1.4.0
 License: GPL-2.0-or-later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -12,7 +12,7 @@ Eine vollständige deutsche Übersetzung für FluentAuth (Du-Form) – als Plugi
 
 == Description ==
 
-1.903 übersetzte Zeichenketten für FluentAuth 3.0.1, ausgeliefert als eigenes Plugin statt über Loco Translate.
+1.938 übersetzte Zeichenketten für FluentAuth 3.0.3, ausgeliefert als eigenes Plugin statt über Loco Translate.
 
 **Warum das nötig ist:** WordPress fragt für eine Textdomain mehrere Kataloge der Reihe nach ab und nimmt die erste Datei, die eine Zeichenkette kennt. Dieses Plugin lädt auf `plugins_loaded` mit Priorität 1 und hält fremde deutsche Kataloge fern. Ein Sprachpaket von wordpress.org gibt es für FluentAuth bisher nicht.
 
@@ -44,6 +44,10 @@ Ein Katalog gehört zu einer Plugin-Version. Ändert der Hersteller einen englis
 Nein. WordPress bringt dafür einen Rahmen mit, wendet ihn aber nur auf Downloads von wordpress.org an. Was das Paket schützt, ist HTTPS und GitHub.
 
 == Changelog ==
+
+= 1.4.0 =
+* Angepasst an FluentAuth 3.0.3: 109 neue Zeichenketten, 50 entfallene. Der Hersteller hat seine englischen Texte überarbeitet – erst FluentAuth aktualisieren, dann dieses Plugin.
+* Produktnamen und Menüpfade der erkannten Fremd-Plugins für Zwei-Faktor-Anmeldung bleiben englisch.
 
 = 1.3.1 =
 * Hinweis in der Verwaltung und in der Plugin-Liste, wenn das Plugin aus dem Quellcode-Archiv statt aus den Releases installiert wurde und die gebauten Kataloge deshalb fehlen.
