@@ -4,7 +4,7 @@
  * Plugin URI:        https://github.com/blocoder/pcl-fauth-de
  * Update URI:        https://github.com/blocoder/pcl-fauth-de
  * Description:       Liefert die deutsche Übersetzung für FluentAuth aus (de_DE, Du-Fassung). Lädt sie vor allen anderen Katalogen und hält fremde deutsche Kataloge fern. Ergänzt vier Texte der Verwaltung, die FluentAuth nicht übersetzbar macht, übersetzt die feste Fußzeile der Code-Mails und verhindert, dass Mail-Apps den Anmeldecode als Telefonnummer verlinken. Der Katalog wird nur geladen, wenn FluentAuth installiert ist.
- * Version:           1.4.0
+ * Version:           1.4.1
  * Requires at least: 6.5
  * Requires PHP:      7.4
  * Author:            Peter Claus Lamprecht (PC’L)

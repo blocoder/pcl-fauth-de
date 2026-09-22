@@ -4,13 +4,17 @@ Tags: fluentauth, fluent-security, deutsch, übersetzung, 2fa
 Requires at least: 6.5
 Tested up to: 7.1
 Requires PHP: 7.4
-Stable tag: 1.4.0
+Stable tag: 1.4.1
 License: GPL-2.0-or-later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
 Eine vollständige deutsche Übersetzung für FluentAuth (Du-Form) – als Plugin, das seinen Katalog vor allen anderen lädt.
 
 == Description ==
+
+**Dieses Plugin wird nicht mehr weiterentwickelt.** Die Übersetzung für FluentAuth steckt seit dem 22.09.2026 in „PC’L Übersetzungen für Fluent-Plugins“ (`pcl-fluent-de`), zusammen mit denen für FluentCommunity, FluentMessaging, FluentPlayer und FluentSnippets. Dort lässt sich jede Übersetzung einzeln abschalten, und die Kataloge werden nur noch gelesen, wenn ihr Plugin installiert ist.
+
+**Was zu tun ist:** `pcl-fluent-de` installieren (https://github.com/blocoder/pcl-fluent-de/releases), danach dieses Plugin deaktivieren und löschen. Solange beide aktiv sind, hält sich das neue Plugin heraus — es geht also nichts kaputt, wenn die Umstellung ein paar Tage dauert.
 
 1.938 übersetzte Zeichenketten für FluentAuth 3.0.3, ausgeliefert als eigenes Plugin statt über Loco Translate.
 
@@ -44,6 +48,9 @@ Ein Katalog gehört zu einer Plugin-Version. Ändert der Hersteller einen englis
 Nein. WordPress bringt dafür einen Rahmen mit, wendet ihn aber nur auf Downloads von wordpress.org an. Was das Paket schützt, ist HTTPS und GitHub.
 
 == Changelog ==
+
+= 1.4.1 =
+* Eingestellt. Die Übersetzung für FluentAuth liegt jetzt in „PC’L Übersetzungen für Fluent-Plugins“ (`pcl-fluent-de`). Dieses Plugin bleibt funktionsfähig, bekommt aber keine neuen Kataloge mehr.
 
 = 1.4.0 =
 * Angepasst an FluentAuth 3.0.3: 109 neue Zeichenketten, 50 entfallene. Der Hersteller hat seine englischen Texte überarbeitet – erst FluentAuth aktualisieren, dann dieses Plugin.
