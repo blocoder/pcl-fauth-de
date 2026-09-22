@@ -4,6 +4,25 @@ Die Versionsnummer steigt bei **jeder** Katalogänderung, auch wenn sich am
 Plugin-Code nichts tut. Ein Archiv, dessen Name nichts über seinen Inhalt
 sagt, ist beim Weitergeben wertlos.
 
+## 1.4.1
+
+**Dieses Plugin wird eingestellt.** Die Übersetzung für FluentAuth liegt seit dem
+22.09.2026 in „PC’L Übersetzungen für Fluent-Plugins“ (`pcl-fluent-de`),
+zusammen mit denen für FluentCommunity, FluentMessaging, FluentPlayer und die
+beiden anderen Schwester-Plugins. Dort lässt sich jede Übersetzung einzeln
+abschalten oder ganz auf Englisch stellen, und ein Katalog wird nur noch
+gelesen, wenn sein Plugin installiert ist.
+
+**Was zu tun ist:** [pcl-fluent-de installieren][nachfolger], danach dieses
+Plugin deaktivieren und löschen. Solange beide aktiv sind, hält sich das neue
+Plugin für diese Textdomain heraus – es geht also nichts kaputt, wenn die
+Umstellung ein paar Tage dauert.
+
+Am Code ändert sich mit dieser Fassung nichts. Wer hier bleibt, behält den
+Katalog vom 22.09.2026; neue Zeichenketten kommen nur noch drüben an.
+
+[nachfolger]: https://github.com/blocoder/pcl-fluent-de/releases
+
 ## 1.4.0
 
 **Angepasst an FluentAuth 3.0.3.** 109 neue Zeichenketten, 50 entfallene.
