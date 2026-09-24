@@ -14,7 +14,7 @@ Eine vollständige deutsche Übersetzung für FluentAuth (Du-Form) – als Plugi
 
 **Dieses Plugin wird nicht mehr weiterentwickelt.** Die Übersetzung für FluentAuth steckt seit dem 22.09.2026 in „PC’L Übersetzungen für Fluent-Plugins“ (`pcl-fluent-de`), zusammen mit denen für FluentCommunity, FluentMessaging, FluentPlayer und FluentSnippets. Dort lässt sich jede Übersetzung einzeln abschalten, und die Kataloge werden nur noch gelesen, wenn ihr Plugin installiert ist.
 
-**Was zu tun ist:** `pcl-fluent-de` installieren (https://github.com/blocoder/pcl-fluent-de/releases), danach dieses Plugin deaktivieren und löschen. Solange beide aktiv sind, hält sich das neue Plugin heraus — es geht also nichts kaputt, wenn die Umstellung ein paar Tage dauert.
+**Was zu tun ist:** `pcl-fluent-de` installieren (https://github.com/blocoder/pcl-fluent-de/releases), danach dieses Plugin deaktivieren und löschen. Solange beide aktiv sind, hält sich das neue Plugin heraus. Es geht also nichts kaputt, wenn die Umstellung ein paar Tage dauert.
 
 1.938 übersetzte Zeichenketten für FluentAuth 3.0.3, ausgeliefert als eigenes Plugin statt über Loco Translate.
 
